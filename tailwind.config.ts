@@ -11,8 +11,18 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        instagram: "#FE1F75",
       },
     },
   },
-  plugins: [],
+  daisyui: {
+    daisyui: {
+      themes: ["light", "dark", "cupcake"],
+    },
+  },
+  plugins: [
+    require(`daisyui`)
+  ],
 } satisfies Config;
+
+
