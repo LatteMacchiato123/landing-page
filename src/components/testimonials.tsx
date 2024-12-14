@@ -46,7 +46,7 @@ export function Testimonials() {
           >
             <div className="flex flex-col space-y-1 p-3">
               <p className="text-sm font-bold">as {testimonial.work}</p>
-              <p className="text-sm">"{testimonial.text}"</p>
+              <p className="text-sm">&quot;{testimonial.text}&quot;</p>
               <div className="flex items-center space-x-2">
                 <Image
                   src={testimonial.avatar}

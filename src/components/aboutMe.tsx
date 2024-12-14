@@ -20,12 +20,12 @@ export function AboutMe() {
           and more.
         </p>
         <p className="text-lg mb-6">
-          Currently, I am enhancing my expertise at the{" "}
+          Currently, I&apos;m enhancing my expertise at the{" "}
           <span className="font-extrabold">Purwadhika Technology School</span>{" "}
-          bootcamp. When I am not coding, I love exploring new places and reading
+          bootcamp. When I&apos;m not coding, I love exploring new places and reading
           tech blogs.
         </p>
-        <p className="text-lg">Let's build something amazing together!</p>
+        <p className="text-lg">Let&apos;s build something amazing together!</p>
       </div>
     </div>
     </div>

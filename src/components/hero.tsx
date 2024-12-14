@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 export function HeroSection() {
   return (
@@ -10,7 +10,7 @@ export function HeroSection() {
           alt="Andhika Gama Pratama"
         />
         <div className="text-center lg:text-left pr-6 pt-20">
-          <h1 className="text-3xl text-base-content">Hi, I'm</h1>
+          <h1 className="text-3xl text-base-content">Hi, I&apos;m</h1>
           <h1 className="text-5xl text-base-content font-extrabold">
             Andhika Gama Pratama
           </h1>
