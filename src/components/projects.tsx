@@ -25,10 +25,17 @@ export function Projects() {
       technologies: ["Next.js", "TypeScript", "TailwindCSS", "DaisyUI"],
       link: "https://gojek-clone-react.vercel.app/",
     },
+    {
+      title: "Spaclean Company Website",
+      description: "laundry company website created using:",
+      image: "/projects/spaclean-web.png", // Ensure this image exists in the public/projects directory
+      technologies: ["Next.js", "TypeScript", "TailwindCSS", "DaisyUI"],
+      link: "https://spaclean-web.vercel.app/",
+    },
   ];
 
   return (
-    <section className="bg-base-200 text-base-content p-10 min-h-screen" id="projects">
+    <section className="bg-base-200 text-base-content p-20 min-h-screen" id="projects">
       <h1 className="text-5xl mb-4 bg-base-200 text-center font-extrabold">
         Projects
       </h1>
