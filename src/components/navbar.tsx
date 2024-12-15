@@ -1,20 +1,4 @@
 export function Navbar() {
-  const projects = [
-    {
-      name: "Todo List",
-      link: "https://to-do-list-andhikagp.vercel.app/",
-    },
-    {
-      name: "Gojek Cloneapp",
-      link: "https://gojek-clone-react.vercel.app/",
-    },
-    {
-      name: "Spaclean Company Website",
-      link: "https://spaclean-web.vercel.app/",
-    },
-    // Add more projects here
-  ];
-
   return (
     <div className="navbar bg-base-200 text-base-content sticky top-0 px-20 z-50">
       <div className="flex-1">
