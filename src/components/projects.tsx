@@ -32,6 +32,13 @@ export function Projects() {
       technologies: ["Next.js", "TypeScript", "TailwindCSS", "DaisyUI"],
       link: "https://spaclean-web.vercel.app/",
     },
+    {
+      title: "Travelog Website for Travel Blog", 
+      description: "Blog created using:",
+      image: "/projects/travelog.png", // Ensure this image exists in the public/projects directory
+      technologies: ["Next.js", "TypeScript", "TailwindCSS", "DaisyUI", "Contentful"],
+      link: "https://travelog-cc-agp.vercel.app/",
+    },
   ];
 
   return (
@@ -63,7 +70,7 @@ export function Projects() {
                <div className="card-body">
               <h2 className="card-title">{project.title}</h2>
               <p className="mb-2 text-lg">{project.description}</p>
-              <div className="mb-4 flex align-middle">
+              <div className="mb-4 flex justify-left flex-wrap gap-2">
                 {project.technologies.map((tech, idx) => (
                   <span key={idx} className="badge badge-outline mx-1 px-2">
                     {tech}
